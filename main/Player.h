@@ -26,7 +26,7 @@ struct Player {
     const int INITIAL_MAX_HP = 3;
     const int MAX_MAX_HP = 5;
     const float invincibilityDuration = 2.f;
-    const float MAX_STAMINA_BONUS = 0.50f;
+    const float MAX_STAMINA_BONUS = 1.0f;
 
     Player(const sf::Texture& tex, float startX, float startY);
 
