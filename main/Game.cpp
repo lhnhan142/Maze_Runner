@@ -848,11 +848,11 @@ void Game::drawMaze() {
                 bool useWall2 = (y + 1 < H && !maze.walls[y + 1][x]); // Sửa logic: tường 2 chỉ khi bên dưới là sàn
                 if (useWall2) {
                     wall2Sprite.setPosition(x * cellSize, y * cellSize);
-                    window.draw(wall2Sprite);
+                    window.draw(wallSprite);
                 }
                 else {
                     wallSprite.setPosition(x * cellSize, y * cellSize);
-                    window.draw(wallSprite);
+                    window.draw(wall2Sprite);
                 }
             }
             else {
