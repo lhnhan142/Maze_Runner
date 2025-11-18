@@ -21,7 +21,7 @@ public:
     const int W = 51;
     const int H = 31;
     const int cellSize = 20;
-    const float speed = 85.f;
+    const float speed = 75.f;
     const double redTrapProbability = 0.08;
     const double yellowTrapProbability = 0.05;
     const float PLAYER_VISUAL_SCALE = 0.85f;
@@ -70,12 +70,12 @@ public:
     float enemySpeed = 39.f;
     const float ENEMY_AGGRO_RANGE = cellSize * 6;
     const float ENEMY_DEAGGRO_RANGE = cellSize * 9;
-    float enemyChaseSpeed = 69.f;
+    float enemyChaseSpeed = 120.f;
     const float AGGRO_RANGE_SQ = ENEMY_AGGRO_RANGE * ENEMY_AGGRO_RANGE;
     const float DEAGGRO_RANGE_SQ = ENEMY_DEAGGRO_RANGE * ENEMY_DEAGGRO_RANGE;
 
     float sprintSpeed = speed * 1.75f;
-    float staminaDrainRate = 30.f;
+    float staminaDrainRate = 36.f;
     float staminaRegenRate = 15.f;
     const float STAMINA_BAR_WIDTH = 70.f;
     const float STAMINA_BAR_HEIGHT = 15.f;
