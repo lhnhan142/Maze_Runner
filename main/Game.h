@@ -70,7 +70,7 @@ public:
     float enemySpeed = 39.f;
     const float ENEMY_AGGRO_RANGE = cellSize * 6;
     const float ENEMY_DEAGGRO_RANGE = cellSize * 9;
-    float enemyChaseSpeed = 120.f;
+    float enemyChaseSpeed = 110.f;
     const float AGGRO_RANGE_SQ = ENEMY_AGGRO_RANGE * ENEMY_AGGRO_RANGE;
     const float DEAGGRO_RANGE_SQ = ENEMY_DEAGGRO_RANGE * ENEMY_DEAGGRO_RANGE;
 
