@@ -3,8 +3,8 @@
 
 bool AssetManager::loadAssets() {
     if (!ground.loadFromFile("../texture/ground2.png")) { std::cout << "Failed to load ground2.png\n"; return false; }
-    if (!wall.loadFromFile("../texture/wall.png")) { std::cout << "Failed to load wall.png\n"; return false; }
-    if (!wall2.loadFromFile("../texture/wall2.png")) { std::cout << "Failed to load wall2.png\n"; return false; }
+    if (!wall2.loadFromFile("../texture/wall.png")) { std::cout << "Failed to load wall.png\n"; return false; }
+    if (!wall.loadFromFile("../texture/wall2.png")) { std::cout << "Failed to load wall2.png\n"; return false; }
     if (!player.loadFromFile("../texture/skeleton.png")) { std::cout << "Failed to load player.png\n"; return false; }
     if (!enemyGoblin.loadFromFile("../texture/goblin2.png")) { std::cout << "Failed to load goblin2.png\n"; return false; }
     if (!redTrap.loadFromFile("../texture/SpikeTrap.png")) { std::cout << "Failed to load SpikeTrap.png\n"; return false; }
